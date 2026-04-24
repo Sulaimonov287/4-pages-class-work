@@ -174,11 +174,20 @@
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
   }
+  .mt-23 {
+    margin-top: calc(var(--spacing) * 23);
+  }
+  .mt-30 {
+    margin-top: calc(var(--spacing) * 30);
+  }
   .flex {
     display: flex;
   }
   .table {
     display: table;
+  }
+  .h-\[40pc\] {
+    height: 40pc;
   }
   .h-\[40px\] {
     height: 40px;
@@ -306,8 +315,14 @@
   .gap-13 {
     gap: calc(var(--spacing) * 13);
   }
+  .gap-14 {
+    gap: calc(var(--spacing) * 14);
+  }
   .gap-15 {
     gap: calc(var(--spacing) * 15);
+  }
+  .gap-17 {
+    gap: calc(var(--spacing) * 17);
   }
   .gap-20 {
     gap: calc(var(--spacing) * 20);
@@ -345,8 +360,20 @@
   .gap-120 {
     gap: calc(var(--spacing) * 120);
   }
+  .gap-130 {
+    gap: calc(var(--spacing) * 130);
+  }
+  .gap-135 {
+    gap: calc(var(--spacing) * 135);
+  }
+  .gap-140 {
+    gap: calc(var(--spacing) * 140);
+  }
   .gap-150 {
     gap: calc(var(--spacing) * 150);
+  }
+  .gap-160 {
+    gap: calc(var(--spacing) * 160);
   }
   .gap-170 {
     gap: calc(var(--spacing) * 170);
@@ -362,6 +389,9 @@
   }
   .gap-255 {
     gap: calc(var(--spacing) * 255);
+  }
+  .gap-290 {
+    gap: calc(var(--spacing) * 290);
   }
   .gap-300 {
     gap: calc(var(--spacing) * 300);
@@ -445,6 +475,9 @@
   }
   .text-\[20px\] {
     font-size: 20px;
+  }
+  .text-\[22px\] {
+    font-size: 22px;
   }
   .text-\[25px\] {
     font-size: 25px;
