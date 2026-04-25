@@ -192,14 +192,14 @@
   .mt-30 {
     margin-top: calc(var(--spacing) * 30);
   }
+  .mt-50 {
+    margin-top: calc(var(--spacing) * 50);
+  }
   .flex {
     display: flex;
   }
   .table {
     display: table;
-  }
-  .h-\[40pc\] {
-    height: 40pc;
   }
   .h-\[40px\] {
     height: 40px;
@@ -688,6 +688,10 @@
       --tw-mask-bottom-to-color: transparent;
       --tw-font-weight: initial;
       --tw-outline-style: solid;
+    }
+  }
+}
+-tw-outline-style: solid;
     }
   }
 }
