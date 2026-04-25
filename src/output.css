@@ -258,8 +258,14 @@
   .w-\[8px\] {
     width: 8px;
   }
+  .w-\[50px\] {
+    width: 50px;
+  }
   .w-\[100px\] {
     width: 100px;
+  }
+  .w-\[120px\] {
+    width: 120px;
   }
   .w-\[150px\] {
     width: 150px;
@@ -686,6 +692,11 @@
       height: 220px;
     }
   }
+  .lg\:w-\[180px\] {
+    @media (width >= 64rem) {
+      width: 180px;
+    }
+  }
   .lg\:w-\[220px\] {
     @media (width >= 64rem) {
       width: 220px;
@@ -789,6 +800,11 @@
   .lg\:gap-340 {
     @media (width >= 64rem) {
       gap: calc(var(--spacing) * 340);
+    }
+  }
+  .lg\:text-\[18px\] {
+    @media (width >= 64rem) {
+      font-size: 18px;
     }
   }
   .lg\:text-\[20px\] {
