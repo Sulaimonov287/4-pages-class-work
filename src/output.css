@@ -518,6 +518,9 @@
   .p-5 {
     padding: calc(var(--spacing) * 5);
   }
+  .p-7 {
+    padding: calc(var(--spacing) * 7);
+  }
   .p-10 {
     padding: calc(var(--spacing) * 10);
   }
@@ -688,10 +691,6 @@
       --tw-mask-bottom-to-color: transparent;
       --tw-font-weight: initial;
       --tw-outline-style: solid;
-    }
-  }
-}
--tw-outline-style: solid;
     }
   }
 }
